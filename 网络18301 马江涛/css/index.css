@@ -1,0 +1,85 @@
+
+/* 导航样式  */ 
+.container .navbar .row{
+	margin: 0 auto;
+}
+.navbar .navbar-nav .nav-item a.nav-link {
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.container .navbar .row .navbar-brand, .container .navbar .row .collapse .navbar-nav{
+		float: left;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 342px) {
+	.container .navbar .row .navbar-toggler{
+		margin: auto;
+		margin-right: 0;
+	}
+	.container .navbar .row{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+/* 轮播缩略图 */
+/* .thumbnail{
+	text-align: center;
+} */
+/* 公司概况 */
+.company .container .row .nav-link p{
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.company .container .row .nav-link img:hover{
+	border: 1px solid red;
+}
+.company .container .row .nav-link p:hover{
+	color: red;
+}
+
+/* 脚部 */
+#footer{
+	background: #082b53 url(../imgs/footbg.jpg) no-repeat center top;
+}
+#footer hr{
+	border-top: 1px solid #383838;
+}
+#footer .container .row .col-md-2{
+	margin-top: 30px;
+}
+#footer .iconfont{
+	color: #fff;
+	font-size: 12px;
+}
+#footer .row .col-lg-2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#footer .nav .nav-item .nav-link{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#footer .nav .nav-item:first-child .nav-link{
+	font-weight: bold;
+	font-size: 16px;
+}
+#footer .font{
+	width: 80%;
+	margin: 0 auto;
+	border-top: 1px solid #383838;
+	margin-top: 20px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #a7a9ac;
+}
+#footer .font a{
+	color: #939393;
+}
